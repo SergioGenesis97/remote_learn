@@ -1,0 +1,24 @@
+Qué es el DOM ?
+  Document Object Model (Modelo de objetos del documento) tomamos el 
+  documento .html y el navegador lo convierte en un cierto grupo de 
+  objetos con jerarquía en base al modelo preestablecido por el 
+  navegador.
+
+  Es la representación de los objetos(elementos html) que conforman
+  la estructura de un documento web.
+
+  Ejemplo:
+    <!DOCTYPE html>
+    <html>                             --> objeto (html)
+      <head>                           --> objeto (head)
+        <title> Ejemplo </title>       --> objeto (title) -->objeto (Ejemplo)
+      </head>                          
+      <body>                           --> objeto (body)
+        <h1>Javascript</h1>            --> objeto (h1)    -->objeto (Javascript)
+        <p>Hola mundo</p>              --> objeto (p)     -->objeto (Hola mundo)
+      </body>
+    </html>
+
+Porque es importante representar el documento ?
+  Representar el documento .html a través del DOM nos permite accceder 
+  a sus elementos y manipularlos.
